@@ -1,0 +1,24 @@
+.box{
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5em;
+    background-image: url("../../img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1{
+    text-align: center;
+    font-size:10ch;
+    color: brown;
+}
+p{
+    font-size: 3ch;
+    text-align: center;
+    color:crimson;
+}
+.pesquisa{
+    text-align: center;
+}

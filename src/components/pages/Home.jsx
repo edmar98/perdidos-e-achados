@@ -1,4 +1,10 @@
+import Box from "../Layout/Box";
+
 function Home(){
-    return <h1>Home</h1>
+    return(
+        <>
+            <Box/>
+        </>
+    )
 }
 export default Home;

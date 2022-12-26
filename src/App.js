@@ -7,7 +7,7 @@ import './App.css';
 import Acheiumdocumento from './components/pages/Acheiumdocumento';
 import Perdiumdocumento from './components/pages/Perdiumdocumento';
 import Home from './components/pages/Home';
-import NavBar from './components/NavBar';
+import NavBar from './components/Layout/NavBar';
 import Quemsomos from './components/pages/Quemsomos';
 
 function App() {
