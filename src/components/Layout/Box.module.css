@@ -15,7 +15,7 @@
 h1{
     text-align: center;
     font-size:10ch;
-    color: white;
+    color: #B607FF;
 }
 p{
     font-size: 3ch;
@@ -24,4 +24,13 @@ p{
 }
 .pesquisa{
     text-align: center;
+}
+input{
+    width: 25%;
+    height: 40px;
+    margin-right: 1%;
+}
+button{
+    width: 10%;
+    height: 45px;
 }
