@@ -7,7 +7,7 @@ function NavBar(){
     return(
         <nav className={styles.navbar}>
             <Link to="/">
-                <img style={{width: 100, height: 100}} src={logo} alt="" />
+                <img style={{width: 100, height: 100, marginLeft:10}} src={logo} alt="" />
             </Link>
             <ul className={styles.menu}>
                 <li className={styles.item}>

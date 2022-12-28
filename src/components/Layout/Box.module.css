@@ -1,36 +1,35 @@
-.box{
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    padding: 5em;
-    
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/img1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: darken;
-    
+.paragrafoBox{
+    color: black;
+    font-size: 1ch;
+    text-align: center;
+    padding: 4%;
 }
+.caixa{
+    background-color:aliceblue;
+    width: 280px;
+    height: 420px;
+    border: 1px solid gray;
+    float: left;
+    margin: 2%;
 
+   
 
-h1{
-    text-align: center;
-    font-size:10ch;
-    color: #B607FF;
 }
-p{
-    font-size: 3ch;
-    text-align: center;
-    color: white;
-}
-.pesquisa{
+.titulo{
     text-align: center;
 }
-input{
-    width: 25%;
+.btnVerMais{
+    width: 100px;
     height: 40px;
-    margin-right: 1%;
+    background-color: #B607FF;
+    color: white;
+    border: 0ch;
 }
-button{
-    width: 10%;
-    height: 45px;
+.ft{
+    width: 100%;
+    height: 210px;
+}
+.info{
+    text-align: center;
+    padding-bottom: 10%;
 }

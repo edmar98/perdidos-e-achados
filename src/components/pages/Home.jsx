@@ -1,9 +1,13 @@
-import Box from "../Layout/Box";
+import Banner from "../Layout/Banner";
+import Corpo from "../Layout/Corpo";
+import Footer from "../Layout/Footer";
 
 function Home(){
     return(
         <>
-            <Box/>
+            <Banner/>
+            <Corpo/>
+            <Footer/>
         </>
     )
 }
