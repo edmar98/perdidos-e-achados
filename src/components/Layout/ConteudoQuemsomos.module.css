@@ -1,0 +1,31 @@
+
+.conteudo{
+    text-align: center;
+
+}
+
+.conteudo p{
+    color: black;
+    font-size: 100%;
+}
+.imagem{
+    text-align: center;
+}
+.conteudo h1{
+    text-align: center;
+}
+.esq{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 250px;
+    padding-right: 4%;
+}
+.dir{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 250px;
+    padding-left: 4%;
+}
+

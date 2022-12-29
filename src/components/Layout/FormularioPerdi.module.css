@@ -1,0 +1,25 @@
+.forma{
+    width: 80%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 2%;
+   
+}
+
+.forma h1{
+    background-color: #F3F3F3;
+    padding: 2%;
+    text-align: center;
+}
+
+.dois{
+    margin-left: 8%;
+}
+
+.btnForm{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+

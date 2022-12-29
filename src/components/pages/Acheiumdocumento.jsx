@@ -1,4 +1,16 @@
+import Banner from "../Layout/Banner";
+import Footer from "../Layout/Footer";
+import FormularioAchei from "../Layout/FormularioAchei";
+
 function Acheiumdocumento(){
-    return <h1>Achei um documento</h1>
+    return(
+        <>
+            <Banner titulo="Achei um documento" />
+            <FormularioAchei/>
+            <br/>
+            <br/>
+            <Footer/>
+        </>
+    )
 }
 export default Acheiumdocumento;

@@ -1,4 +1,16 @@
+import Banner from "../Layout/Banner";
+import ConteudoQuemsomos from "../Layout/ConteudoQuemsomos";
+import Footer from "../Layout/Footer";
+
+
 function Quemsomos(){
-    return <h1>Quem somos</h1>
+    return(
+        <>
+            <Banner titulo="Quem somos" />
+            <ConteudoQuemsomos/>
+            <Footer/>
+            
+        </>
+    )
 }
 export default Quemsomos;

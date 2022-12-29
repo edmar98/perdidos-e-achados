@@ -1,11 +1,11 @@
-import Banner from "../Layout/Banner";
+import BannerHome from "../Layout/BannerHome";
 import Corpo from "../Layout/Corpo";
 import Footer from "../Layout/Footer";
 
 function Home(){
     return(
         <>
-            <Banner/>
+            <BannerHome/>
             <Corpo/>
             <Footer/>
         </>

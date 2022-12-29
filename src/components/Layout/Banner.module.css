@@ -1,39 +1,15 @@
 .banner{
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    padding: 5em;
-    
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/img1.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
-    
+    padding: 2em;
 }
 
 
 .tituloBanner{
     text-align: center;
     font-size:10ch;
-    color: #B607FF;
-}
-p{
-    font-size: 3ch;
-    text-align: center;
     color: white;
 }
-.pesquisa{
-    text-align: center;
-}
-input{
-    width: 25%;
-    height: 40px;
-    margin-right: 1%;
-}
-button{
-    width: 10%;
-    height: 45px;
-    background-color: #B607FF;
-    color: white;
-    border: 0ch;
-}
+
