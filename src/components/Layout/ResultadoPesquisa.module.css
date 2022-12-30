@@ -1,0 +1,31 @@
+.forma{
+    width: 80%;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 2%;
+   
+}
+
+.forma h1{
+    background-color: #F3F3F3;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.forma p{
+    color: black;
+}
+.cimaEsq{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 250px;
+}
+.cimaDir{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 250px;
+}
+

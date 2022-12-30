@@ -1,0 +1,30 @@
+.detalhes{
+    text-align: center;
+}
+
+
+.detalhes p{
+    color: black;
+    text-align: left;
+    margin-right: 5%;
+   
+}
+.detalhes h1{
+    text-align: center;
+}
+.fotografia{
+    text-align: center;
+}
+
+.esqDetalhes{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 300px;
+}
+.dirDetalhes{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 250px;
+}

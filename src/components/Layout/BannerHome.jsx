@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './BannerHome.module.css'
 
 
@@ -18,7 +19,10 @@ function BannerHome(){
                     name="name"
                     placeholder=" Localize o seu item"
                 />
-                <button>Pesquisar</button>
+                <Link to="/PaginaPesquisa">
+                    <button>Pesquisar</button>
+                </Link>
+                
             </div>
             
 
