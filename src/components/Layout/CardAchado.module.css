@@ -1,0 +1,32 @@
+.cardContainer{
+    background-color:aliceblue;
+    width: 400px;
+    height: 560px;
+    border: 1px solid gray;
+    float: left;
+    margin: 2%;
+}
+.cardContainer p{
+    color: black;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    color: blueviolet;
+}
+.cardContainer h3{
+    color: black;
+    text-align: center;
+}
+.card{
+    color: white;
+}
+
+.cardContainer p{
+    font-size: 100%;
+}
+.ft{
+    background-color: aqua;
+    width: 100%;
+    height: 210px;
+}

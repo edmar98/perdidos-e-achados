@@ -14,6 +14,8 @@ import Cartadeconducao from './components/pages/Cartadeconducao';
 import Passaporte from './components/pages/Passaporte';
 import LivreteEtitulo from './components/pages/LivreteEtitulo';
 import PaginaPesquisa from './components/pages/PaginaPesquisa';
+import DocAchadoRecente from './components/pages/DocAchadosRecentes';
+
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/LivreteEtitulo" element={<LivreteEtitulo/>} />
             <Route path="/Cartadeconducao" element={<Cartadeconducao/>} />
             <Route path="/PaginaPesquisa" element={<PaginaPesquisa/>} />
+            <Route path="/DocAchadosRecentes" element={<DocAchadoRecente/>} />
+
         </Routes>
     </Router>
     

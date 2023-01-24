@@ -6,6 +6,7 @@ import fotoPassaPorte from '../../img/passaporte.jpg'
 import fotoLivrete from '../../img/Livrete-de-carro.jpg'
 import fotoCarta from '../../img/carta-de-conducao.jpg'
 
+
 function Categorias(){
     return(
         <div className={styles.Container}>

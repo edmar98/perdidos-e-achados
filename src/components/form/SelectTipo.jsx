@@ -1,9 +1,8 @@
-import styles from './Select.module.css'
+import styles from './SelectTipo.module.css'
 
-function Select({text, name, options, handleOnchange, value}){
+function SelectTipo({text, name, options, handleOnchange, value}){
     return(
         <div className={styles.form_control}>
-            <label htmlFor={name}>{text}:</label>
             <select name={name} id={options} onChange={handleOnchange}>
                 <option value="Bilhete de identidade">Bilhete de identidade</option>
                 <option value="Passaporte">Passaporte</option>
@@ -15,4 +14,4 @@ function Select({text, name, options, handleOnchange, value}){
         </div>
     )
 }
-export default Select;
+export default SelectTipo;

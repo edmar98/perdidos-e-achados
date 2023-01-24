@@ -1,8 +1,18 @@
 import { Link } from 'react-router-dom';
 import styles from './BannerHome.module.css'
+import SelectTipo from '../form/SelectTipo';
+import InputPesquisa from '../form/InputPesquisa';
+import React from "react";
+
+
 
 
 function BannerHome(){
+
+    
+
+
+     
     return(
         <div className={styles.banner}>
             <h1 className={styles.tituloBanner}>PERDIDOS E ACHADOS</h1>
@@ -13,17 +23,33 @@ function BannerHome(){
                 e caso não encontre registro poderá cadastrar o documento achado, contribuindo 
                 para que a pessoa que o perdeu encontre a pessoa que achou.
             </p>
-            <div className={styles.pesquisa}>
-                <input 
-                    type="text"
-                    name="name"
-                    placeholder=" Localize o seu item"
-                />
-                <Link to="/PaginaPesquisa">
-                    <button>Pesquisar</button>
-                </Link>
-                
+            <div className={styles.barraPesquisa}>
+                <h1>Encontre seu Documento!</h1>
+                <p>Encontre seu documento perdido, use o campo de pesquisa para procurar seu documento.</p>
+                <div className={styles.pesquisa} >
+
+                    <InputPesquisa 
+                        type="text"
+                        name="nomePesquisa"
+                        placeholder=" Digite o seu nome completo"
+                  
+                    />
+                    <SelectTipo name="TipoPesquisa" text="Selecione o tipo de documento" 
+                  
+                    />
+                    <Link to="/PaginaPesquisa">
+                        <div className={styles.btnForm}>
+                            <button 
+                            >Pesquisar</button>
+                        </div>
+                    </Link>
+  
+
+   
+                    
+                </div>
             </div>
+            
             
 
         </div>
